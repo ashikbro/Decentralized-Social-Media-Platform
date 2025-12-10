@@ -1,0 +1,22 @@
+{
+  "name": "decentralized-social-media-platform",
+  "version": "1.0.0",
+  "description": "A decentralized, privacy-first social media platform where users own and control their data via blockchain.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "test": "hardhat test",
+    "frontend": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "keywords": ["blockchain", "web3", "decentralized", "social-media", "ethereum", "ipfs"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^3.0.17",
+    "solc": "^0.8.20"
+  }
+}
